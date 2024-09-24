@@ -1,1 +1,11 @@
-here we go again
+steps:
+git init
+git add .... # the files you want to add
+git commit -m "# the wanted commit message"
+
+to create a new branch: git checkout -b "#new branch name"
+change branch to existing one: git checkout "branch name"
+show branches:  git branch
+go back to a previous commit: git revert # commit id
+show commits: git log
+merge a branch to the current branch: git merge #name of branch to merge into current branch
